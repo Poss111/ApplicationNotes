@@ -31,7 +31,7 @@ The app is built in modular services, allowing different teams to operate indepe
 Instead of burying ops metrics in admin consoles, the app surfaces them *directly* into user dashboards where relevant — leading to a culture where teams naturally notice, care about, and improve operational KPIs.
 
 ## 11. Auto-Scaling Savior
-During a sudden user spike (maybe Black Friday, a viral tweet), the app’s backend auto-scales perfectly based on load, keeping everything smooth — demonstrating how infrastructure ops excellence protects business outcomes.
+During a sudden user spike (maybe Black Friday, a viral tweet), the app's backend auto-scales perfectly based on load, keeping everything smooth — demonstrating how infrastructure ops excellence protects business outcomes.
 
 ## 12. Continuous Delivery Champion
 The team sets up full CI/CD pipelines where unit tests, integration tests, load tests, and security scans all run automatically — meaning operations are no longer a bottleneck to innovation, but an enabler.
@@ -50,7 +50,10 @@ The app includes an "operator view" where internal ops staff can see exactly wha
 # Optional Next Step
 
 🔵 **Roadmap idea for growing operational excellence in the app:**
-- **V1:** Monitoring and alerting
-- **V2:** Automated scaling and self-healing
-- **V3:** Predictive maintenance and optimization
-- **V4:** Full closed-loop autonomous operations
+
+```mermaid
+flowchart LR
+    V1[V1: Monitoring and Alerting] --> V2[V2: Automated Scaling and Self-healing]
+    V2 --> V3[V3: Predictive Maintenance and Optimization]
+    V3 --> V4[V4: Full Closed-loop Autonomous Operations]
+```
